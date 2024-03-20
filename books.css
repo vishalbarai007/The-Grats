@@ -1,7 +1,8 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Audiowide", sans-serif;
+
 }
 
 body{
@@ -38,7 +39,7 @@ nav{
 .nav-items{
     display: flex;
     position:fixed;
-    left: 50%;
+    left: 45%;
 }
 
 .nav-items ul li{
@@ -83,6 +84,7 @@ section h1{
     height: 100vh;
 }
 
+
 .main1{
     display: flex;
     justify-content: center;
@@ -90,8 +92,9 @@ section h1{
     margin-top: 100px;
     height: 100vh;
     width: 100%;
-    background:linear-gradient(to right , #3185fc,#150578);
-    gap: 20px;
+    background-image: url("images/background1.jpg");
+    /* background:linear-gradient(to right , #7f9183,#586f6b); */
+    gap: 30px;
     border-radius: 20px;
 }
 
@@ -105,10 +108,10 @@ section h1{
 }
 
 .main1 a button:hover{
-  background:linear-gradient(to left , #150578,#fcfcfc);
-  color: white;
+  /* background:linear-gradient(to left , #150578,#fcfcfc); */
+  color: #d78521;
   border: none;
-  transition: 1s ;
+  transition: 0.5s ;
 }
 
 
@@ -124,28 +127,31 @@ section h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 100px;
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
+    background-color: #586F6B;
     color: #fcfcfc;
 
 }
 
 .main2 #dropdownMenuButton1{
     height: 80px;
-    width: 300px;
+    width: 250px;
     border-radius: 20px;
     background-color: #fcfcfc;
-    color: #0e0e52;
-    font-size: 25px;
+    color: #000000;
+    font-size: 20px;
 
 }
 
 .main2 #dropdownMenuButton1:hover{
-    background:linear-gradient(to right top, #3185fc,#fcfcfc);
+    /* background:linear-gradient(to right top, #3185fc,#fcfcfc); */
+    background-color: #6a7695;
 }
 
 .main2 .dropdown-menu{
@@ -165,13 +171,15 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
-    color: #fcfcfc;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
+    color: #000000;
+
 
 }
 
 .dropdown-menu .dropdown-item:hover{
-    background-color: #3185fc;
+    color: #000000;
 }
 
 #SEM2{
@@ -183,16 +191,18 @@ section h1{
 
 .main3 #dropdownMenuButton1{
     height: 80px;
-    width: 260px;
+    width: 270px;
     border-radius: 20px;
     background-color: #fcfcfc;
     color: #0e0e52;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
 .main3 #dropdownMenuButton1:hover{
-    background:linear-gradient(to right top, #3185fc,#fcfcfc);
+    /* background:linear-gradient(to right top, #3185fc,#fcfcfc); */
+    background-color: #6a7695;
+
 }
 
 .main3 .dropdown-menu{
@@ -213,7 +223,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -227,6 +238,13 @@ section h1{
 }
 
 
+#branch1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+}
+
+
 .main4{
     display: flex;
     justify-content: center;
@@ -236,7 +254,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -246,13 +265,14 @@ section h1{
     width: 300px;
     border-radius: 20px;
     background-color: #fcfcfc;
-    color: #0e0e52;
-    font-size: 25px;
+    color: #000000;
+    font-size: 20px;
 
 }
 
 .main4 #dropdownMenuButton1:hover{
-    background:linear-gradient(to right top, #3185fc,#fcfcfc);
+    /* background:linear-gradient(to right top, #3185fc,#fcfcfc); */
+    background-color: #6a7695;
 }
 
 .main4 .dropdown-menu{
@@ -272,12 +292,13 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
 
-#SEM5{
+#SEM4{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -294,7 +315,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -304,13 +326,15 @@ section h1{
     width: 300px;
     border-radius: 20px;
     background-color: #fcfcfc;
-    color: #0e0e52;
-    font-size: 25px;
+    color: #000000;
+    font-size: 20px;
 
 }
 
 .main5 #dropdownMenuButton1:hover{
-    background:linear-gradient(to right top, #3185fc,#fcfcfc);
+    /* background:linear-gradient(to right top, #3185fc,#fcfcfc); */
+    background-color: #6a7695;
+
 }
 
 .main5 .dropdown-menu{
@@ -330,7 +354,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -352,7 +377,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -362,9 +388,8 @@ section h1{
     width: 300px;
     border-radius: 20px;
     background-color: #fcfcfc;
-    color: #0e0e52;
-    font-size: 25px;
-
+    color: #000000;
+    font-size: 20px;
 }
 
 .main6 #dropdownMenuButton1:hover{
@@ -388,7 +413,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -411,7 +437,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -421,9 +448,8 @@ section h1{
     width: 300px;
     border-radius: 20px;
     background-color: #fcfcfc;
-    color: #0e0e52;
-    font-size: 25px;
-
+    color: #000000;
+    font-size: 20px;
 }
 
 .main7 #dropdownMenuButton1:hover{
@@ -447,7 +473,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -470,7 +497,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -480,8 +508,8 @@ section h1{
     width: 300px;
     border-radius: 20px;
     background-color: #fcfcfc;
-    color: #0e0e52;
-    font-size: 25px;
+    color: #000000;
+    font-size: 20px;
 
 }
 
@@ -506,7 +534,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -529,7 +558,8 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
 }
@@ -539,8 +569,8 @@ section h1{
     width: 300px;
     border-radius: 20px;
     background-color: #fcfcfc;
-    color: #0e0e52;
-    font-size: 25px;
+    color: #000000;
+    font-size: 20px;
 
 }
 
@@ -565,8 +595,210 @@ section h1{
     min-height: 100vh;
     border-radius: 20px;
     width: 100%;
-    background-color: #150578;
+    background-image: url("images/background5.jpg");
+    background-size: contain;
     color: #fcfcfc;
 
+}
+
+
+.new_footer_area {
+    background: #fefefa;
+}
+
+
+.new_footer_top {
+    padding: 120px 0px 270px;
+    position: relative;
+      overflow-x: hidden;
+}
+.new_footer_area .footer_bottom {
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.footer_bottom {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #7f88a6;
+    padding: 27px 0px;
+}
+.new_footer_top .company_widget p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #6a7695;
+    margin-bottom: 20px;
+}
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+    border-width: 1px;
+    margin-top: 20px;
+}
+.btn_get_two:hover {
+    background: transparent;
+    color:#07393C;
+}
+.btn_get:hover {
+    color: #fff;
+    background: #07393C;
+    border-color: #07393C;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+    color: #07393C;
+}
+.new_footer_top .f_widget.about-widget .f_list li {
+    margin-bottom: 11px;
+}
+.f_widget.about-widget .f_list li:last-child {
+    margin-bottom: 0px;
+}
+.f_widget.about-widget .f_list li {
+    margin-bottom: 15px;
+}
+.f_widget.about-widget .f_list {
+    margin-bottom: 0px;
+}
+.new_footer_top .f_social_icon a {
+    width: 44px;
+    height: 44px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #e2e2eb;
+    font-size: 24px;
+}
+.f_social_icon a {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    font-size: 14px;
+    line-height: 45px;
+    color: #858da8;
+    display: inline-block;
+    background: #ebeef5;
+    text-align: center;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+.ti-facebook:before {
+    content: "\e741";
+}
+.ti-twitter-alt:before {
+    content: "\e74b";
+}
+.ti-vimeo-alt:before {
+    content: "\e74a";
+}
+.ti-pinterest:before {
+    content: "\e731";
+}
+
+.btn_get_two {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: #07393C;
+    border-color: #07393C;
+    color: #fff;
+}
+
+.btn_get_two:hover {
+    background: transparent;
+    color: #07393C;
+}
+
+.new_footer_top .f_social_icon a:hover {
+    background:#07393C;
+    border-color: #07393C;
+  color:white;
+}
+.new_footer_top .f_social_icon a + a {
+    margin-left: 4px;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #263b5e;
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #4b505e;
+}
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+    position: absolute;
+    bottom: 0;
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png") no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif") no-repeat center center;
+    width: 330px;
+    height: 105px;
+    background-size:100%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    -webkit-animation: myfirst 22s linear infinite;
+    animation: myfirst 22s linear infinite;
+}
+
+.new_footer_top .footer_bg .footer_bg_two {
+    background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
+    width: 88px;
+    height: 100px;
+    background-size:100%;
+    bottom: 0;
+    left: 38%;
+    position: absolute;
+    -webkit-animation: myfirst 30s linear infinite;
+    animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+  100% {
+    left: 100%;
+  }
 }
 

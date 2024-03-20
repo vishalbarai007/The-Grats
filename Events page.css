@@ -1,7 +1,8 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family: Georgia,
+    font-family: "Audiowide", sans-serif;
+    
 }
 
 nav{
@@ -69,6 +70,7 @@ nav{
        }
 
        .main1 .party{
+            font-family: 'Times New Roman', Times, serif;
            text-align: center;
            width: 90%;
            position: absolute;
@@ -103,39 +105,39 @@ nav{
 
        .left{
            display: flex;
+           justify-content: center;
+           align-items: center;
            height: 100vh;
            width: 47%;
            background-color: #fefefa;
            background-image: url("images/4-1.jpg");
            border-radius: 20px;
-
            background-position: -150px 0px;
            margin-left: 2%;
            border-radius: 20px;
        }
-       /* .main2 .left h3{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 95%;
-        margin-top: 100px;
-        margin-left: 2%;
-        font-size: 150px;
-        border: solid 5px #141414;
-        font-weight: 100;
+       
+       .main2 .left h3{
+        
+        border: solid 5px #000;
+        font-size: 100px;
+        font-weight: 600;
         z-index: 1;
         color: #141414;
         transition: 1s;
+
+       }
+
+       .main2 .left h3:hover{
+        -webkit-text-stroke: 3px #000;
+        color: transparent;
     }
 
-    .main2 .left h3:hover{
-        -webkit-text-stroke: 5px #000000;
-        color: transparent;
-    } */
 
        .right{
             display: flex;
+            justify-content: center;
+           align-items: center;
            height: 100vh;
            width: 47%;
            background-color: #fefefa;
@@ -146,6 +148,23 @@ nav{
            border-radius: 20px;
 
        }
+
+       .main2 .right h1{
+        
+        font-size: 100px;
+        font-weight: 600;
+        z-index: 1;
+        border: solid 5px #000;
+
+        color: #141414;
+        transition: 1s;
+
+       }
+
+       .main2 .right h1:hover{
+        -webkit-text-stroke: 3px #000;
+        color: transparent;
+        }
 
        .main3{
         display: flex;
@@ -183,6 +202,8 @@ nav{
     }
 
        .main4{
+        display: flex;
+        position: relative;
         height: 80vh;
         width: 100%;
         background-color: #1e90ff;
@@ -191,8 +212,25 @@ nav{
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 20px;
+       }
+
+       .main4 h2{
+        font-size: 100px;
+        font-weight: 600;
+        z-index: 1;
+        /* border: solid 5px #000; */
+        color: #ffffff;
+        transition: 1s;
+        margin-top: 150px;
+        margin-left: 300px;
 
        }
+
+       .main4 h2:hover{
+        -webkit-text-stroke: 3px #ffffff;
+        color: transparent;
+        }
+
 
        .main5{
         height: 80vh;

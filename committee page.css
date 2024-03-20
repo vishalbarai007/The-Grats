@@ -6,6 +6,7 @@
     
 }
 nav{
+    
     display: flex;
     height: 80px;
     width: 100%;
@@ -42,6 +43,8 @@ nav{
 }
 
 .nav-items ul li a{
+    font-family: "Audiowide", sans-serif;
+
     font-size: 20px;
     margin-left: 25px;
     line-height: 70px;
@@ -621,6 +624,7 @@ border-radius: 10px;
 
 
 .new_footer_area {
+    
     background: #fefefa;
 }
 
@@ -642,6 +646,7 @@ border-radius: 10px;
     padding: 27px 0px;
 }
 .new_footer_top .company_widget p {
+    font-family: "Audiowide", sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -742,19 +747,28 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
     margin-left: 4px;
 }
 .new_footer_top .f-title {
+    font-family: "Audiowide", sans-serif;
+
     margin-bottom: 30px;
     color: #263b5e;
 }
 .f_600 {
+    font-family: "Audiowide", sans-serif;
+
     font-weight: 600;
 }
 .f_size_18 {
+    font-family: "Audiowide", sans-serif;
     font-size: 18px;
 }
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Audiowide", sans-serif;
+    
     color: #4b505e;
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
+    font-family: "Audiowide", sans-serif;
+
     color: #6a7695;
 }
 
