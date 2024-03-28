@@ -2,13 +2,11 @@
     margin: 0%;
     padding: 0%;
     font-family: "Audiowide", sans-serif;
-    /* font-family: 'Aclonica';font-size: 22px; */
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+   
 }
 
 body{
     background-color: #f0edee;
-    /* font-family: 'Aclonica';font-size: 22px; */
     
 }
 
@@ -32,7 +30,7 @@ nav{
     position: absolute;
     top: 5px;
     left: 10%;
-    background-image:url("logo2.png");
+    background-image:url("images/logo2.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -102,7 +100,7 @@ nav{
     width: 60%;
     margin-left: 25%;
     margin-top: 9%;
-    background-image: url("logo4.png");
+    background-image: url("images/logo4.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0px -100px;
@@ -132,7 +130,7 @@ a .r1{
     width: 330px;
     margin: 20px;
     background-color: #fefefa;
-    background-image: url("recurssion.jpg");
+    background-image: url("images/recurssion.jpg");
     background-size: cover;
     border-radius: 20px;
     box-sizing: border-box;
@@ -153,7 +151,7 @@ a .r2{
     width: 330px;
     margin: 20px;
     background-color: #fefefa;
-    background-image: url("programmersdate.jpg");
+    background-image: url("images/programmersdate.jpg");
     background-size: cover;
     border-radius: 20px;
     box-sizing: border-box;
@@ -195,7 +193,7 @@ a .r4{
     width: 330px;
     margin: 20px;
     background-color: #fefefa;
-    background-image: url("ideathon.jpg");
+    background-image: url("images/ideathon.jpg");
     background-size: cover;
 
     border-radius: 20px;
